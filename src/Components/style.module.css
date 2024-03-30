@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:5rem;
+    gap:2rem;
+}
+.container h1{
+    color:navy;
+
+}
+.btnContainer {
+display: flex;
+align-items: center;
+justify-content: center;
+gap:2rem;
+}
+.btnContainer .left,.right{
+    padding:5px 15px;
+    width: 180px;
+    
+    border-radius :5px;
+   transition: all 1s;
+
+    }
+    .left{
+        background-color: navy;
+    color:white;
+    }
+
+    .left:hover{
+     filter: brightness(1.4);
+    }
+    .right{
+        color:navy;
+        background-color: white;
+        border:3px solid navy;
+
+
+    }
+    .right:hover{
+        background-color: lightblue;
+        color:navy;
+        /* border:navy; */
+
+    }
